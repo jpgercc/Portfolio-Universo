@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Arte, música, poesia e imagens - Seção criativa do portfolio" name="description"/>
+  <meta content="arte, música, poesia, imagens, criatividade" name="keywords"/>
+  <title>
+   Musas - Meu Universo
+  </title>
+  <link href="/assets/unique.png" rel="icon" type="image/png"/>
+  <link href="/assets/css/styles.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- Popup de Aviso -->
+  <div class="popup-overlay" id="contentWarning">
+   <div class="popup-content">
+    <div class="popup-image">
+     <img alt="Aviso de Conteúdo" src="/assets/images/gandalf-the-grey-lord-of-the-rings.gif"/>
+    </div>
+    <div class="popup-text">
+     <h2>
+      Domínio privado...
+     </h2>
+     <p>
+      ~ Não tens o direito de cruzar estas fronteiras.
+      <br/>
+      Diz a senha ou volta para as sombras criatura!
+     </p>
+     <div class="popup-buttons">
+      <button class="btn btn-primary" id="acceptBtn">
+       A senha é ...
+      </button>
+      <button class="btn btn-secondary" id="declineBtn">
+       Voltar
+      </button>
+     </div>
+     <div class="password-container" id="passwordContainer" style="display: none;">
+      <div class="password-display">
+       <input type="text" id="passwordDisplay" readonly placeholder="Digite a senha">
+      </div>
+      <div class="password-error" id="passwordError" style="display: none;">
+       Senha incorreta! Tente novamente.
+      </div>
+      <div class="numeric-keyboard">
+       <button class="num-btn" data-num="1">1</button>
+       <button class="num-btn" data-num="2">2</button>
+       <button class="num-btn" data-num="3">3</button>
+       <button class="num-btn" data-num="4">4</button>
+       <button class="num-btn" data-num="5">5</button>
+       <button class="num-btn" data-num="6">6</button>
+       <button class="num-btn" data-num="7">7</button>
+       <button class="num-btn" data-num="8">8</button>
+       <button class="num-btn" data-num="9">9</button>
+       <button class="num-btn delete-btn" data-action="delete">⌫</button>
+       <button class="num-btn" data-num="0">0</button>
+       <button class="num-btn submit-btn" data-action="submit">✓</button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <header class="header">
+   <nav class="nav">
+    <div class="nav-container">
+     <div class="logo">
+      <h1>
+       <a href="/">
+        Universum, in unum versus.
+       </a>
+      </h1>
+     </div>
+     <ul class="nav-menu">
+      <li>
+       <a class="nav-link" href="/">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="nav-link" href="/computation/">
+        Computação
+       </a>
+      </li>
+      <li>
+       <a class="nav-link active" href="/sobremim/">
+        Sobre Mim
+       </a>
+      </li>
+     </ul>
+     <div class="hamburger">
+      <span>
+      </span>
+      <span>
+      </span>
+      <span>
+      </span>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <main class="main-content">
+   <section class="page-hero">
+    <div class="page-hero-content">
+     <h1 class="page-title">
+      Musas
+     </h1>
+     <p class="page-subtitle">
+      Conheça minhas musas e o meu eu através da minha forma preferida de consumo:
+      <br/>
+      as artes
+     </p>
+    </div>
+    <!--<img alt="zeus, hermes e afrodite" src="/assets/images/zeo.png"/>-->
+   </section>
+   <section class="musas-nav">
+    <div class="musas-grid">
+     <div class="musa-card" data-musa="epoidai">
+      <div class="musa-icon">
+       🎵
+      </div>
+      <h3>
+       Epoidai
+      </h3>
+      <p>
+       Coleção musical
+      </p>
+      <a class="musa-link" href="epoidai.html">
+       Explorar
+      </a>
+     </div>
+     <div class="musa-card" data-musa="poesis">
+      <div class="musa-icon">
+       📝
+      </div>
+      <h3>
+       Poesis
+      </h3>
+      <p>
+       Poesias e versos
+      </p>
+      <a class="musa-link" href="poesis.html">
+       Explorar
+      </a>
+     </div>
+     <div class="musa-card" data-musa="imago">
+      <div class="musa-icon">
+       🖼️
+      </div>
+      <h3>
+       Imago
+      </h3>
+      <p>
+       Galerias de imagens
+      </p>
+      <a class="musa-link" href="imago.html">
+       Explorar
+      </a>
+     </div>
+     <div class="musa-card" data-musa="liber">
+      <div class="musa-icon">
+       📖
+      </div>
+      <h3>
+       Liber
+      </h3>
+      <p>
+       Livros preferidos
+      </p>
+      <a class="musa-link" href="livros.html">
+       Explorar
+      </a>
+     </div>
+     <div class="musa-card" data-musa="peliculas">
+      <div class="musa-icon">
+       🎬
+      </div>
+      <h3>
+       Películas
+      </h3>
+      <p>
+       Filmes e séries preferidos
+      </p>
+      <a class="musa-link" href="filme.html">
+       Explorar
+      </a>
+     </div>
+     <div class="musa-card" data-musa="ego">
+      <div class="musa-icon">
+       🤔
+      </div>
+      <h3>
+      </h3>
+      <p>
+      </p>
+      <a class="musa-link" href="/">
+       Voltar
+      </a>
+     </div>
+     <div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="footer-content">
+    <p>
+     © 2025 - Todos os direitos reservados.
+    </p>
+   </div>
+  </footer>
+  <script src="/assets/js/script.js">
+  </script>
+ </body>
+</html>
