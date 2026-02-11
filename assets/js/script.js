@@ -233,7 +233,7 @@ function initContentWarning() {
     if (declineBtn) {
         declineBtn.addEventListener('click', function() {
             // Redirecionar para a página inicial
-            window.location.href = 'index.html';
+            window.location.href = '/';
         });
     }
     
