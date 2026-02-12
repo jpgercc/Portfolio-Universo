@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         card.addEventListener('click', function() {
             const section = this.dataset.section;
             if (section) {
-                window.location.href = `${section}.html`;
+                window.location.href = `${section}/`;
             }
         });
     });
