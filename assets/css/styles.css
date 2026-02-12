@@ -741,11 +741,6 @@ body {
     padding: 0 2rem;
 }
 
-/* Mata a barra feia e o aviso de tradução do Google. Ta deixando um espaço vazio ao lado do sobremim, arrumar */
-#google_translate_element {
-    display: none !important;   
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
 
