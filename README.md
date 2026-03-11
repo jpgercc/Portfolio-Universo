@@ -9,4 +9,5 @@ add diary flutter app at APPS div
 
 adicionar card de servicos ao final (evitando termos tecnicos)
 
-fazer branding; especialidade e revisar (mudar texto)
+fazer branding; especialidade e revisar (mudar texto):
+tirar confeitaria
