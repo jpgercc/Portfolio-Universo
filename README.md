@@ -11,3 +11,4 @@ adicionar card de servicos ao final (evitando termos tecnicos)
 
 fazer branding; especialidade e revisar (mudar texto):
 tirar confeitaria
+tirar a frase imbecil do idiomas lol qq significa imbel?
